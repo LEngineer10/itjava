@@ -9,54 +9,54 @@ public class Task_2 {
 		double s1, s2;
 		double h, h1, h2;
 		// text
-		System.out.println("Задача. Моторная лодка прошла s1 км против течения реки");
-		System.out.println("и s2 км по течению реки. Известно, что её собственная скорость равна");
-		System.out.println("v1 км/ч, а скорость течения реки v2 км/ч. Сколько часов лодка затратила на весь путь?");
+		System.out.println("Р—Р°РґР°С‡Р°. РњРѕС‚РѕСЂРЅР°СЏ Р»РѕРґРєР° РїСЂРѕС€Р»Р° s1 РєРј РїСЂРѕС‚РёРІ С‚РµС‡РµРЅРёСЏ СЂРµРєРё");
+		System.out.println("Рё s2 РєРј РїРѕ С‚РµС‡РµРЅРёСЋ СЂРµРєРё. РР·РІРµСЃС‚РЅРѕ, С‡С‚Рѕ РµС‘ СЃРѕР±СЃС‚РІРµРЅРЅР°СЏ СЃРєРѕСЂРѕСЃС‚СЊ СЂР°РІРЅР°");
+		System.out.println("v1 РєРј/С‡, Р° СЃРєРѕСЂРѕСЃС‚СЊ С‚РµС‡РµРЅРёСЏ СЂРµРєРё v2 РєРј/С‡. РЎРєРѕР»СЊРєРѕ С‡Р°СЃРѕРІ Р»РѕРґРєР° Р·Р°С‚СЂР°С‚РёР»Р° РЅР° РІРµСЃСЊ РїСѓС‚СЊ?");
 		
 		// 1
 		System.out.println("");
 		System.out.println("1) v1 + v2 = v3");
-		System.out.println("Введите значение v1:");
+		System.out.println("Р’РІРµРґРёС‚Рµ Р·РЅР°С‡РµРЅРёРµ v1:");
 		v1 = console.nextDouble();
-		System.out.println("Введите значение v2:");
+		System.out.println("Р’РІРµРґРёС‚Рµ Р·РЅР°С‡РµРЅРёРµ v2:");
 		v2 = console.nextDouble();
 		v3 = v1 + v2;
-		System.out.println("v3 будет равен:");
+		System.out.println("v3 Р±СѓРґРµС‚ СЂР°РІРµРЅ:");
 		System.out.println(v3);
 		System.out.println("");
 		
 		//2
 		System.out.println("");
-		System.out.println("2) v1 – v2 = v4");
-		System.out.println("Значение v1 имеется");
-		System.out.println("Значение v2 имеется");
+		System.out.println("2) v1 вЂ“ v2 = v4");
+		System.out.println("Р—РЅР°С‡РµРЅРёРµ v1 РёРјРµРµС‚СЃСЏ");
+		System.out.println("Р—РЅР°С‡РµРЅРёРµ v2 РёРјРµРµС‚СЃСЏ");
 		v4 = v1 - v2;
-		System.out.println("v4 будет равен:");
+		System.out.println("v4 Р±СѓРґРµС‚ СЂР°РІРµРЅ:");
 		System.out.println(v4);
 		System.out.println("");
 		
 		//3
 		System.out.println("");
 		System.out.println("3) s1 : v4 = h1");
-		System.out.println("Введите значение s1:");
+		System.out.println("Р’РІРµРґРёС‚Рµ Р·РЅР°С‡РµРЅРёРµ s1:");
 		s1 = console.nextDouble();
-		System.out.println("Значение v4 имеется");
+		System.out.println("Р—РЅР°С‡РµРЅРёРµ v4 РёРјРµРµС‚СЃСЏ");
 		h1 = s1 / v4;
-		System.out.println("h1 будет равен:");
+		System.out.println("h1 Р±СѓРґРµС‚ СЂР°РІРµРЅ:");
 		System.out.println(h1);
 		System.out.println("");
 		//4
 		System.out.println("4) s2 : v3 = h2");
-		System.out.println("Введите значение s2:");
+		System.out.println("Р’РІРµРґРёС‚Рµ Р·РЅР°С‡РµРЅРёРµ s2:");
 		s2 = console.nextDouble();
-		System.out.println("Значение v3 имеется");
+		System.out.println("Р—РЅР°С‡РµРЅРёРµ v3 РёРјРµРµС‚СЃСЏ");
 		h2 = s2 / v3;
-		System.out.println("h2 будет равен:");
+		System.out.println("h2 Р±СѓРґРµС‚ СЂР°РІРµРЅ:");
 		System.out.println(h2);
 		//5
 		System.out.println("5) h1 + h2 = h");
 		h = h1 + h2;
-		System.out.println("h будет равен:");
+		System.out.println("h Р±СѓРґРµС‚ СЂР°РІРµРЅ:");
 		System.out.println(h);
 		System.out.println("--");
 		//Answer
@@ -68,7 +68,7 @@ public class Task_2 {
 		System.out.print(v2);
 		System.out.print(" = ");
 		System.out.print(v3);
-		System.out.print(" (км/ч)");
+		System.out.print(" (РєРј/С‡)");
 		//asw2
 		System.out.println("");
 		System.out.print("2) ");
@@ -77,7 +77,7 @@ public class Task_2 {
 		System.out.print(v2);
 		System.out.print(" = ");
 		System.out.print(v4);
-		System.out.print(" (км/ч)");
+		System.out.print(" (РєРј/С‡)");
 		//asw3
 		System.out.println("");
 		System.out.print("3) ");
@@ -86,7 +86,7 @@ public class Task_2 {
 		System.out.print(v4);
 		System.out.print(" = ");
 		System.out.print(h1);
-		System.out.print(" (ч)");
+		System.out.print(" (С‡)");
 		//asw4
 		System.out.println("");
 		System.out.print("4) ");
@@ -95,7 +95,7 @@ public class Task_2 {
 		System.out.print(v3);
 		System.out.print(" = ");
 		System.out.print(h2);
-		System.out.print(" (ч)");
+		System.out.print(" (С‡)");
 		//asw5
 		System.out.println("");
 		System.out.print("5) ");
@@ -104,10 +104,10 @@ public class Task_2 {
 		System.out.print(h2);
 		System.out.print(" = ");
 		System.out.print(h);
-		System.out.print(" (ч)");
+		System.out.print(" (С‡)");
 		//aswfin
 		System.out.println("");
-		System.out.print("Ответ: ");
+		System.out.print("РћС‚РІРµС‚: ");
 		System.out.print(h);
 	}
 }
