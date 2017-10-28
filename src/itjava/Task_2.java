@@ -1,5 +1,7 @@
 package itjava;
 
+import java.util.Scanner;
+
 public class Task_2 {
 	public static void main(String[] args) {
 		Scanner console = new Scanner(System.in);
@@ -107,4 +109,5 @@ public class Task_2 {
 		System.out.println("");
 		System.out.print("Ответ: ");
 		System.out.print(h);
+	}
 }
